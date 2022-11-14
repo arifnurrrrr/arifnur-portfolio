@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home"
+              ><img src="/assets/img/logo2.svg" class="block py-6" alt=""
+            /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white bg-opacity-70 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#hero"
+                    class="text-base text-black py-2 mx-8 group-hover:text-primary flex"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-black py-2 mx-8 group-hover:text-primary flex"
+                    >About</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base text-black py-2 mx-8 group-hover:text-primary flex"
+                    >Portofolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-black py-2 mx-8 group-hover:text-primary flex"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero" class="pt-32 bg-gradient-to-t from-five to-white">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div
+            class="wow animate__animated animate__slideInLeft w-full self-center px-4 lg:w-1/2"
+          >
+            <h1 class="text-base text-gold font-bold md:text-xl">
+              Halo Semua, Saya
+              <span class="block font-bold text-black text-4xl mt-1 lg:text-5xl"
+                >Arif Nur Rochman</span
+              >
+            </h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+              <span class="text-black font-semibold"
+                >A Junior Web Developer.</span
+              >
+            </h2>
+
+            <p class="font-medium text-gold mb-10 leading-relaxed">
+              Saya Adalah Junior Programming Yang Ingin Meningkatkan Skill
+              Individu Saya Dalam Pemrograman
+              <span class="text-black font-bold">Web & App.</span>
+            </p>
+
+            <a
+              href=""
+              class="text-base font-semibold bg-hejo text-white rounded-full py-3 px-7 hover:drop-shadow-xl hover:opacity-90 transition duration-300 ease-in-out"
+              >Get Started ></a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="/assets/img/profile.png"
+                alt=""
+                class="max-w-full mx-auto wow animate__animated animate__slideInRight"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32 bg-sky">
+      <div class="container bg-sky">
+        <div class="flex flex-wrap">
+          <div
+            class="w-full px-4 mb-10 wow animate__animated animate__slideInLeft lg:w-1/2"
+          >
+            <h4 class="font-bold uppercase text-hejo text-lg mb-3">About Me</h4>
+            <h2 class="font-bold text-hejo text-3xl mb-5 max-w-md lg:text-4xl">
+              Welcome To My Portofolio!
+            </h2>
+            <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">
+              Seseorang yang tidak suka hal hal yang membuang waktu, cari tau
+              lebih tentang saya.......
+            </p>
+          </div>
+          <div
+            class="w-full wow animate__animated animate__slideInRight px-4 lg:w-1/2"
+          >
+            <h3 class="font-bold text-hejo text-2xl mb-4 lg:text-3xl lg:pt-10">
+              Hire Me!
+            </h3>
+            <p
+              class="font-medium text-base text-slate-500 mb-6 max-w-xl lg:text-lg"
+            >
+              Jangan Lupa Follow Media Sosial Saya😁
+            </p>
+            <div class="flex items-center">
+              <!-- Github -->
+              <a
+                href=""
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-md flex justify-center items-center bg-slate-200 hover:bg-slate-300"
+                ><svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  class="fill-current"
+                >
+                  <title>GitHub</title>
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a
+                href=""
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-md flex justify-center items-center bg-slate-200 hover:bg-slate-300"
+                ><svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  class="fill-current"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+              <!-- Tiktok -->
+              <a
+                href=""
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-md flex justify-center items-center bg-slate-200 hover:bg-slate-300"
+                ><svg
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  class="fill-curret"
+                >
+                  <title>TikTok</title>
+                  <path
+                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-10 bg-abu">
+      <div class="container bg-abu">
+        <div class="w-full px-4">
+          <div
+            class="max-w-xl mx-auto text-center mb-16 wow animate__animated animate__slideInDown"
+          >
+            <h4 class="font-semibold text-lg text-hejo mb-2">Portofolio</h4>
+            <h2 class="font-bold text-3xl mb-4">Recent Work</h2>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center wow animate__animated animate__zoomIn xl:w-10/12 xl:mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <article class="group">
+              <img
+                alt="Lava"
+                src="/assets/img/Admin Page.PNG"
+                class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+              />
+
+              <div class="p-4">
+                <h3
+                  class="accordion-header cursor-pointer border-hejo border-t-2 text-lg font-medium text-hejo"
+                >
+                  Aplikasi Cafe Bisa Ngopi
+                  <i class="bx bx-chevron-down cursor-pointer lg:px-3"></i>
+                </h3>
+                <div class="accordion-body border-hejo border-b-2">
+                  <p
+                    class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3"
+                  >
+                    Project Aplikasi Ujian Akhir Kompetensi Keahlian Yang Saya
+                    Kerjakan Kurang Lebih 1 Bulan, Menggunakan Bahasa
+                    Pemrograman PHP Framework Codeigniter 3 & Bootstrap 5
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <article class="group">
+              <img
+                alt="Lava"
+                src="/assets/img/pos.PNG"
+                class="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+              />
+
+              <div class="p-4">
+                <h3
+                  class="accordion-header cursor-pointer border-hejo border-t-2 text-lg font-medium text-hejo"
+                >
+                  Aplikasi Point Of Sale
+                  <i class="bx bx-chevron-down cursor-pointer lg:px-3"></i>
+                </h3>
+                <div class="accordion-body border-hejo border-b-2">
+                  <p
+                    class="mt-2 text-sm leading-relaxed text-gray-500 line-clamp-3"
+                  >
+                    Project Aplikasi PKL Untuk dijadikan Pembelajaran Mengenai
+                    Pemrograman Yang Saya Kerjakan Kurang Lebih 2.5 Bulan,
+                    Menggunakan Bahasa Pemrograman PHP Framework Codeigniter 3 &
+                    CSS
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portofolio Section End -->
+
+    <!-- Planning Section Start -->
+    <section class="pt-36 pb-10">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+            <div
+              class="max-w-xl mx-auto text-center mb-16 wow animate__animated animate__zoomIn"
+            >
+              <h2 class="font-bold text-3xl mb-4 text-hejo">Motivasi</h2>
+              <p class="font-medium text-md italic text-slate-600">
+                "Tidak ada satupun bahasa pemrograman, yang bisa mencegah
+                programmer membuat program yang jelek Jadi kamu harus bangga
+                untuk membuat program dalam kemampuan mu sendiri!"
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full self-center text-center px-4 wow animate__animated animate__slideInLeft lg:w-1/2"
+          >
+            <h2 class="font-bold text-3xl mb-4 text-hejo">My Planning</h2>
+            <div class="overflow-x-auto relative sm:rounded-lg">
+              <table
+                class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+              >
+                <thead
+                  class="text-xs text-hejo uppercase dark:bg-gray-700 dark:text-gray-400"
+                >
+                  <tr>
+                    <th scope="col" class="py-3 px-6">Planning</th>
+                    <th scope="col" class="py-3 px-6 text-end">Tahun</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    class="bg-white border-2 border-hejo border-b-hejo dark:bg-primary dark:border-primary hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      Next Js
+                    </th>
+
+                    <td class="py-4 px-6 text-end">2023</td>
+                  </tr>
+                  <tr
+                    class="bg-white border-2 border-hejo dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      Node Js
+                    </th>
+
+                    <td class="py-4 px-6 text-end">2023</td>
+                  </tr>
+                  <tr
+                    class="bg-white border-2 border-hejo dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      React Js
+                    </th>
+
+                    <td class="py-4 px-6 text-end">2023</td>
+                  </tr>
+                  <tr
+                    class="bg-transparent border-2 border-hejo dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      Express Js
+                    </th>
+
+                    <td class="py-4 px-6 text-end">2023</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div
+            class="w-full self-end text-center px-4 pt-[105px] wow animate__animated animate__slideInRight lg:w-1/2"
+          >
+            <h2 class="font-bold text-3xl mb-4 text-hejo">My Skills</h2>
+            <div class="overflow-x-auto relative sm:rounded-lg">
+              <table
+                class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+              >
+                <thead
+                  class="text-xs text-hejo uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+                >
+                  <tr>
+                    <th scope="col" class="py-3 px-6">Technology</th>
+                    <th scope="col" class="py-3 px-6 text-end">Static</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr
+                    class="bg-hejo text-white dark:bg-primary dark:border-primary"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-white whitespace-nowrap dark:text-white"
+                    >
+                      HTML
+                    </th>
+
+                    <td class="py-4 px-6 text-end">70%</td>
+                  </tr>
+                  <tr
+                    class="bg-white border-2 border-b-hejo dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      CSS
+                    </th>
+
+                    <td class="py-4 px-6 text-end">60%</td>
+                  </tr>
+                  <tr
+                    class="bg-hejo text-white dark:bg-gray-800 dark:border-gray-700"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-white whitespace-nowrap dark:text-white"
+                    >
+                      Bootstrap
+                    </th>
+
+                    <td class="py-4 px-6 text-end">50%</td>
+                  </tr>
+                  <tr
+                    class="bg-white border-2 border-b-hejo dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      Tailwind CSS
+                    </th>
+
+                    <td class="py-4 px-6 text-end">40%</td>
+                  </tr>
+                  <tr
+                    class="bg-hejo text-white dark:bg-gray-800 dark:border-gray-700"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-white whitespace-nowrap dark:text-white"
+                    >
+                      React Js
+                    </th>
+
+                    <td class="py-4 px-6 text-end">50%</td>
+                  </tr>
+                  <tr
+                    class="bg-white border-2 border-b-hejo dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
+                  >
+                    <th
+                      scope="row"
+                      class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    >
+                      Javascript
+                    </th>
+
+                    <td class="py-4 px-6 text-end">50%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Planning Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32 bg-sky">
+      <div class="container wow animate__animated animate__zoomIn">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-hejo mb-2">Contact</h4>
+            <h2
+              class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Contact Me
+            </h2>
+            <p class="font-medium text-md text-slate-500">
+              Start Coding Menggunakan Bahasa Pemrograman
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-2/3 mx-auto">
+          <div class="w-full px-4 mb-8">
+            <label for="name" class="text-base text-hejo font-bold">
+              Nama
+            </label>
+            <input
+              type="text"
+              id="from_name"
+              placeholder="Nama...."
+              required
+              class="w-full bg-abu border-2 border-hejo text-black p-3 rounded-md focus:outline-none focus:ring-hejo focus:ring-1 focus:border-hejo"
+            />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="email" class="text-base text-hejo font-bold">
+              Email
+            </label>
+            <input
+              type="email"
+              id="email_id"
+              placeholder="Email..."
+              required
+              class="w-full bg-abu border-2 border-hejo text-black p-3 rounded-md focus:outline-none focus:ring-hejo focus:ring-1 focus:border-hejo"
+            />
+          </div>
+          <div class="w-full px-4 mb-8">
+            <label for="pesan" class="text-base text-hejo font-bold">
+              Pesan
+            </label>
+            <textarea
+              type="text"
+              id="message"
+              required
+              class="w-full bg-abu border-2 border-hejo text-black p-3 rounded-md focus:outline-none focus:ring-hejo focus:ring-1 focus:border-hejo"
+            ></textarea>
+          </div>
+
+          <div class="w-full px-4">
+            <button
+              onclick="SendMail()"
+              class="btn-kirim text-base font-semibold text-white bg-hejo transition duration-400 ease-in-out hover:shadow-lg hover:bg-lime-700 py-3 px-8 rounded-full w-full"
+            >
+              KIRIM
+            </button>
+            <button
+              class="btn-loading hidden text-base font-semibold text-white bg-hejo transition duration-400 ease-in-out hover:shadow-lg hover:bg-lime-700 py-3 px-8 rounded-full w-full"
+              disabled
+            >
+              <img
+                src="/assets/img/Ellipsis-1s-200px.svg"
+                width="25"
+                class="mx-auto"
+                alt=""
+              />
+            </button>
+            <button
+              class="btn-terkirim hidden text-base font-semibold text-white bg-hejo transition duration-400 ease-in-out hover:shadow-lg hover:bg-lime-700 py-3 px-8 rounded-full w-full"
+              disabled
+            >
+              Terkirim✔
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Fotter Section Start -->
+    <footer
+      aria-label="Site Footer"
+      class="bg-white text-center wow animate__animated wow animate__animated animate__slideInUp"
+    >
+      <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-3xl space-y-6">
+          <div class="flex justify-center gap-6">
+            <a
+              class="text-gray-900 hover:text-gray-900/75"
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Twitter"
+            >
+              <svg
+                class="h-8 w-8"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="text-pink-600 hover:text-pink-600/75"
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+              <svg
+                class="h-8 w-8"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+            <a
+              class="text-gray-900 hover:text-gray-900/75"
+              href="/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+              <svg
+                class="h-8 w-8"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <nav
+            aria-label="Footer Nav"
+            class="rounded-3xl border-4 border-gray-900 p-6"
+          >
+            <ul class="flex flex-wrap justify-center gap-6 text-sm font-bold">
+              <li>
+                <a
+                  class="text-gray-900 transition hover:text-gray-900/75"
+                  href="#hero"
+                  rel="noreferrer"
+                >
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-900 transition hover:text-gray-900/75"
+                  href="#about"
+                  rel="noreferrer"
+                >
+                  About
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-900 transition hover:text-gray-900/75"
+                  href="#portofolio"
+                  rel="noreferrer"
+                >
+                  Portfolio
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="text-gray-900 transition hover:text-gray-900/75"
+                  href="#contact"
+                  rel="noreferrer"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <p class="mx-auto max-w-lg text-xs text-gray-500">
+            Portofolio Project Arif Nur Rochman
+            <span class="mt-4 block"> &copy; 2022 Arif Nur Rochman </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fotter Section End -->
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("OEqVpCDwQzXgjWPZe");
+      })();
+    </script>
+  </body>
+</html>
